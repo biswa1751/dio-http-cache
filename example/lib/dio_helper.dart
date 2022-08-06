@@ -41,6 +41,7 @@ class DioHelper {
           (X509Certificate cert, String host, int port) {
         return true;
       };
+      return null;
     };
     return httpClientAdapter;
   }
